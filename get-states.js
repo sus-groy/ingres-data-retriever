@@ -1,9 +1,5 @@
-import fetch from "node-fetch"; // install with: npm install node-fetch
-
 // URL for INGRES report generation
 const url = "https://ingres.iith.ac.in/api/gec/getParentChildLoc";
-
-
 
 export async function getStates(assessmentYear = "2024-2025") {   //starting and beginning assessment years as parameters
     const payload = {

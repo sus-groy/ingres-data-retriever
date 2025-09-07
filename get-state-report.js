@@ -1,4 +1,3 @@
-// import fetch from "node-fetch.js"; // install with: npm install node-fetch
 import fs from "fs";
 import { getStateUID } from "./get-states.js";
 import { getBlockUIDs} from "./get-blocks.js";
